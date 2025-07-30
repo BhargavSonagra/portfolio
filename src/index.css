@@ -1,0 +1,9 @@
+@import "tailwindcss/preflight.css" layer(base);
+@import "tailwindcss/utilities.css" layer(utilities);
+@import "tailwindcss";
+/* Optional: extend styles */
+body{
+     /* bg-gray-900 */
+     background-color:rgba(17, 24, 39, 0.867);
+     color:white
+}

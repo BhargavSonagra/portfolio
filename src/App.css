@@ -1,0 +1,23 @@
+
+
+/* glowing-blue.css */
+.glow-hover {
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.glow-hover:hover {
+  box-shadow: 0 0 15px rgba(0, 123, 255, 0.7),
+              0 0 30px rgba(0, 123, 255, 0.5),
+              0 0 45px rgba(0, 123, 255, 0.4);
+  transform: translateY(-2px);
+}
+
+/* glowing-text.css */
+.glow-text-hover {
+  transition: all 0.3s ease-in-out;
+}
+
+.glow-text-hover:hover {
+  text-shadow: 0 0 8px #3b82f6, 0 0 16px #3b82f6;
+  color: #3b82f6;
+}
