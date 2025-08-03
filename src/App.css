@@ -6,9 +6,11 @@
 }
 
 .glow-hover:hover {
-  box-shadow: 0 0 15px rgba(0, 123, 255, 0.7),
-              0 0 30px rgba(0, 123, 255, 0.5),
-              0 0 45px rgba(0, 123, 255, 0.4);
+  box-shadow: 
+  15px 15px 15px rgba(0, 123, 255, 0.4),
+  30px 30px 30px rgba(0, 123, 255, 0.3),
+  45px 45px 45px rgba(0, 123, 255, 0.2);
+
   transform: translateY(-2px);
 }
 
@@ -20,4 +22,15 @@
 .glow-text-hover:hover {
   text-shadow: 0 0 8px #3b82f6, 0 0 16px #3b82f6;
   color: #3b82f6;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 
+    0 0 4px rgba(255, 255, 255, 0.06),
+    0 0 12px rgba(255, 255, 255, 0.05),
+    0 0 20px rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
 }

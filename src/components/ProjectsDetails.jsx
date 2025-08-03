@@ -26,7 +26,7 @@ const ProjectDetails = () => {
             />
             <p className="mb-6 p-3 text-lg text-center text-blue-400">{project.description}</p>
 
-            <span className="text-lg border border-amber-600 p-2 rounded-2xl shadow-2xl">
+            <span className="text-lg border-2 border-amber-600 p-2 rounded-2xl shadow-2xl">
                 Project Links Below
             </span>
 
@@ -40,10 +40,10 @@ const ProjectDetails = () => {
             <div className="flex flex-col md:flex-row gap-5">
                 {/* Technology List */}
                 <div className="flex-1">
-                    <h2 className="text-2xl font-semibold mt-8 mb-2">Technology Used:</h2>
+                    <h2 className="text-2xl font-semibold mt-8 mb-5">Technology Used:</h2>
                     <ul className="list-disc list-inside space-y-1 mb-6">
                         {project.Technologies.map((tech, index) => (
-                            <li className="border rounded-2xl p-2" key={index}>{tech}</li>
+                            <span key={index}className="border rounded-2xl px-3 py-2 m-3 ">{tech}</span>
                         ))}
                     </ul>
                 </div>
