@@ -29,20 +29,22 @@ This project showcases my skills, projects, and experience as a frontend develop
 - 🎨 Fully Responsive Design
 - 💡 Animated Components on Scroll
 - 🔗 QR Code Popup to View on Mobile
-- 🌙 Dark Mode Support (optional)
 - ⚡ Performance Optimized
 
----
 
----
+
+
 
 ## 🧾 Setup Instructions
 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/BhargavSonagra/portfolio.git
+git clone
+ https://github.com/BhargavSonagra/portfolio.git
+
 cd portfolio
+
 npm run dev
 
 
