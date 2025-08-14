@@ -6,10 +6,10 @@
 }
 
 .glow-hover:hover {
-  box-shadow: 
-  15px 15px 15px rgba(0, 123, 255, 0.4),
-  30px 30px 30px rgba(0, 123, 255, 0.3),
-  45px 45px 45px rgba(0, 123, 255, 0.2);
+ box-shadow: 
+  8px 8px 12px rgba(0, 123, 255, 0.25),
+  16px 16px 20px rgba(0, 123, 255, 0.15),
+  24px 24px 28px rgba(0, 123, 255, 0.1);
 
   transform: translateY(-2px);
 }

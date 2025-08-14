@@ -40,13 +40,20 @@ const ProjectDetails = () => {
             <div className="flex flex-col md:flex-row gap-5">
                 {/* Technology List */}
                 <div className="flex-1">
-                    <h2 className="text-2xl font-semibold mt-8 mb-5">Technology Used:</h2>
-                    <ul className="list-disc list-inside space-y-1 mb-6">
-                        {project.Technologies.map((tech, index) => (
-                            <span key={index}className="border rounded-2xl px-3 py-2 m-3 ">{tech}</span>
-                        ))}
-                    </ul>
-                </div>
+  <h2 className="text-2xl font-semibold mt-8 mb-5">Technology Used:</h2>
+  <div className="flex flex-wrap gap-3 mb-6">
+    {project.Technologies.map((tech, index) => (
+      <span
+        key={index}
+        className="border rounded-2xl px-3 py-2"
+        style={{ flexBasis: 'calc(50% - 0.375rem)' }}
+      >
+        {tech}
+      </span>
+    ))}
+  </div>
+</div>
+
             </div>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
                 {/* Desktop View Button */}
