@@ -15,16 +15,12 @@
       "Netlify"
     ],
     "Full_description": [
-    "Fully responsive design with modular, reusable React components",
-    "Fetched and displayed country data including flags, capitals, currencies, and regions",
-    "Integrated Wikipedia links and a secondary API for historical and factual insights",
-    "Designed dynamic UI with Tailwind CSS, including light/dark theme toggle and mobile-first styling",
-    "Implemented animated transitions and hover effects using Framer Motion",
-    "Added real-time search functionality and dynamic filters for intuitive navigation",
-    "Optimized performance with lazy loading, conditional rendering, and loading skeletons",
-    "Ensured cross-browser compatibility and deployed the app live via Netlify",
-    "Used Git and GitHub for version control and clean UI/UX practices"
-    ]
+    "Built a fully responsive React app using modular, reusable components and Tailwind CSS for a dynamic, mobile-first UI.",
+    "Displayed comprehensive country data (flags, capitals, currencies, regions) with real-time search and dynamic filters.",
+    "Integrated Wikipedia links and a secondary API to provide historical and factual insights.",
+    "Enhanced user experience with light/dark theme toggle, animated transitions via Framer Motion, and loading skeletons.",
+    "Optimized performance, ensured cross-browser compatibility, deployed via Netlify, and managed code with Git/GitHub."
+  ]
   },
   {
     "id": "EverSafe Insurance",
@@ -44,17 +40,12 @@
       "Framer-Motion"
     ],
     "Full_description": [
-    "Developed a responsive insurance website with React.js and Bootstrap 5",
-    "Designed service pages for health, auto, life, travel, and business insurance",
-    "Built modular React components for cards, forms, sliders, and hero sections",
-    "Integrated Framer Motion for scroll-triggered and hover-based animations",
-    "Used Swiper carousel and Bootstrap sliders to display featured policies",
-    "Managed structured JSON data for scalability and fast updates",
-    "Implemented form validation, modals, and accessibility with semantic HTML5 and ARIA tags",
-    "Added routing with React Router DOM and optimized performance with lazy loading",
-    "Prevented search engine indexing using robots.txt and meta tags",
-    "Hosted the site on Netlify and maintained clean code with Git/GitHub"
-    ]
+    "Built a responsive insurance website using React.js and Bootstrap 5 with modular components for easy maintenance.",
+    "Designed service pages covering various insurance types, including health, auto, life, travel, and business.",
+    "Integrated animations with Framer Motion and used Swiper/Bootstrap sliders for showcasing featured policies.",
+    "Ensured accessibility and usability through form validation, semantic HTML5, ARIA tags, and React Router for navigation.",
+    "Optimized performance with lazy loading, structured JSON data, SEO controls, and deployed via Netlify with Git/GitHub."
+  ]
   },
   {
     "id": "Live Weather Website",
@@ -72,17 +63,12 @@
       "Netlify"
     ],
     "Full_description": [
-      "Built a responsive weather website using core JavaScript, HTML5, and CSS3",
-    "Integrated OpenWeatherMap API to fetch real-time weather data by city name",
-    "Displayed temperature, humidity, wind speed, and weather conditions dynamically",
-    "Used JavaScript DOM manipulation for live UI updates and modular code structure",
-    "Designed a mobile-friendly layout with Flexbox, media queries, and smooth transitions",
-    "Added search input with instant data retrieval, loading indicators, and error handling",
-    "Incorporated weather icons and animated card entries for enhanced visual appeal",
-    "Included current date and time functionality using the JavaScript Date object",
-    "Ensured cross-browser compatibility and optimized DOM performance",
-    "Hosted the project on Netlify and maintained version control with Git/GitHub"
-    ]
+    "Developed a responsive weather with 5-Days forecast website using core JavaScript, HTML5, and CSS3 with a mobile-friendly layout.",
+    "Integrated OpenWeatherMap API to fetch and display real-time weather data by city name.",
+    "Used DOM manipulation for dynamic updates of temperature, humidity, wind speed, and conditions.",
+    "Enhanced UX with search input, loading indicators, animated cards, and current date/time functionality.",
+    "Ensured cross-browser compatibility, optimized performance, and deployed via Netlify with Git/GitHub."
+  ]
   },
   {
     "id": "BMI Calc with Hight Converter ",
@@ -99,17 +85,11 @@
       "Netlify"
     ],
     "Full_description": [
-      "Built a BMI Calculator using HTML, CSS, and JavaScript with dynamic input handling",
-    "Included an in-page height converter to switch between feet/inches and centimeters interactively",
-    "Enabled height conversion between feet/inches and centimeters in real time",
-    "Calculated BMI and classified results into categories like Underweight, Normal, Overweight, and Obese",
-    "Designed a responsive UI with Flexbox and color-coded visual feedback",
-    "Added input validation to accept only numeric values and prevent errors",
-    "Included reset functionality and tooltips for user guidance",
-    "Supported both metric and imperial units for height and weight inputs",
-    "Modularized JavaScript for calculations, conversions, and UI rendering",
-    "Applied CSS transitions and hover effects for interactive styling",
-    "Hosted on Netlify and maintained version control with Git/GitHub"
-    ]
+    "Created a responsive BMI Calculator using HTML, CSS, and JavaScript with real-time input handling and validation.",
+    "Included interactive height conversion between feet/inches and centimeters, supporting both metric and imperial units.",
+    "Calculated BMI and categorized results into standard health classifications with color-coded visual feedback.",
+    "Modularized JavaScript for clean calculation, conversion, and UI rendering, enhanced with transitions and tooltips.",
+    "Deployed on Netlify, maintained with Git/GitHub, and designed a user-friendly interface using Flexbox and hover effects."
+  ]
   }
 ]
